@@ -1,4 +1,6 @@
-public class Main {
+//6510405822 sarawut inpol
+public class DuckSimulator {
+
     public static void main(String[] args) {
         DuckSimulator simulator = new DuckSimulator();
 
@@ -50,7 +52,6 @@ public class Main {
 
         System.out.println("\nThe ducks quacked " + QuackCounter.getQuacks() + " times");
 
-        // Reset quack count for next simulation
         QuackCounter.numberOfQuacks = 0;
     }
 

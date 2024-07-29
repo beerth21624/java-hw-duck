@@ -1,2 +1,6 @@
-package PACKAGE_NAME;public class RubberDuck {
+//6510405822 sarawut inpol
+public class RubberDuck implements Quackable {
+    public void quack() {
+        System.out.println("Squeak");
+    }
 }
